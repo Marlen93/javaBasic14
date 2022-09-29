@@ -1,0 +1,46 @@
+Type Casting(primitive data types0:
+type casting is converting 1 data time to another one.
+for example we can covert a shot to a byte a long to float ect.
+There are two main type implicit/widening/automatic and explicit/narrowing/manual
+implicit/widening/automatic Type casting:
+when java converts the data type automatically for us. it only happens when we assign
+ a smaller date type to a larger date type,Bc there is no data loss in this
+ conversion.
+ 
+ 
+ Explicit/narrowing/manual Type casting:
+    when we convert a larger data type to a smaller data type it is called all of:
+    Explicit/narrowing/Manual. it doesnt happen automatically we have to do it explicitly manually.
+ why we should learn Type casting?
+   when we write code in real life most of the time we use the code from others to save time
+   and we might also need to covert data types to make our code compatible with their code.
+ what is the syntax for type casting?
+   we use () and inside the () we write the destination data type for ex:
+   if we cant to convert a long to an int this is how we can do it.
+   long var1=250:
+    int var2=(int)var1;// its Explicit/narrowing/Manual
+  double var3=var2 // Implicit/widening/automatic 
+   float f=250.5f;
+   double d=f;//Implicit/widening/automatic
+ ======================================================================================================================================
+ if Else conditions
+   if else help us write code that can take the decision based on data. 
+why we should learn about if else?
+  Bc when we are solving a real life problem like testing a website our programs need to make a lot of decisions.
+  If (the given username and password matches)
+  (go to home page) ElSE (give user a warning)
+ what is the syntax for IF ELSE condition 
+  boolean isHungry=true;
+
+  if(isHungry){ 
+  System.out.println("Please Eat somthing")
+  }else{
+  System.out.print(" let buid some java program") 
+  }
+  =====================================================================================================================================
+  Nested if Conditions:
+    
+  
+   
+ 
+

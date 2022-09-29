@@ -1,0 +1,56 @@
+LogicalNot!
+
+comiler always checks our code befor giving it to JAVA to execute it 
+
+int =0;
+double=0.0;
+boolean=false
+string and other
+----------------------------------------------------------------------------------------
+
+                      SWITCH CASE
+   
+ switch case-statement executes one statement from multiple values/conditions
+ 
+ SYNTAX                     
+   
+ switch (variable) {
+        
+        case value1:
+              name=a;                     
+              break;
+         case value2
+              name=B     
+              break
+-------------------------------------Class Task------------------------------
+public class Task {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please Enter your Quiz Score?");
+        double quiz = input.nextDouble();
+        System.out.println("Please Enter your mid term Score?");
+        double midterm = input.nextDouble();
+        System.out.println("Please Enter your Final Score?");
+        double Final = input.nextDouble();
+        double average;
+        average = (quiz+midterm+Final)/3;
+        String grade;
+
+        if(average>=90 && average<=100) {
+            grade = "A";
+        }else if(average>=70 && average<90) {
+            grade = "B";
+        }else if(average>=50 && average<70) {
+            grade = "C";
+        }else if(average<50 && average>0) {
+            grade = "F";
+        }else {
+            System.out.println("Please enter valid score!");
+            grade ="None";
+        }
+        System.out.println("Grade: "+grade);
+    }
+}
+﻿

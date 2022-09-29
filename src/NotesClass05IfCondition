@@ -1,0 +1,97 @@
+
+
+
+
+
+
+if (boolean condition) {
+}
+---------------------------------------------------
+boolean weekend =false;
+
+if (weekend) {
+  System.out.println("it is Java class");
+}
+
+String day="Saturday";
+if (dat.equals("saturday")){
+ System.out.println("it is Java class");
+}
+  
+  int date=3; 
+  
+  if(date=3){    // to make a number into boolean you have to do == signs
+  ----------------------------------------------------------------------------
+    System.out.println(Today is the the third)
+    }
+    SYNTAX
+    if (boolean condition) {
+         code A;
+    }else{
+         code B;     
+  --------------------------------------------------------------------------       
+      
+       if (boolean condition) {
+         code A;
+    }else{
+         code B;
+    }else if (boolean condition){
+         code C;
+  -------------------------------------------------------------------------
+  
+  Nested if- if statement inside another if
+  
+  if(boolean condition) { -> outer if 
+   
+  if(boolean condition){ -> inner if
+  
+  }       
+  -----------------------------------------------------------------------
+  Logical Operators 
+  
+  assignment operator: =
+  Arithmetic:+-*/%
+  Relational:>,>=,<=,==,!=
+  Logical:&&,||,!
+  Logical AND &&
+  
+  true && true--> TRUE
+  true && false-->False
+  false && true-->False
+  false && 
+  Logical OR ||
+  true|| true--> true
+  true|| false-->true
+  false|| true-->true
+  false|| false-->false
+  -------------------------------------
+  SWITCH case:
+   similar to if else if conditions.
+  why we should learn about the switch case?
+  1)its clear 
+  2)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+         
+              
+         
+      
+      
+      
+      
+         
+         
+         

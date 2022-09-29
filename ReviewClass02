@@ -1,0 +1,17 @@
+* Type Casting:is converting the type of data from one data type to another one. we have 2 types of type casting.
+ * 1) Explicit/narrowing/manual
+ * 2)Implicit/widening/automatic
+ * when we go from a bigger data type to a smaller one it is called Explicit/narrowing/manual and when we go from a smaller data type to
+ * a larger data type we call it Implicit/widening/automatic. * 
+ * byte(8) smallest data type it goes up to 8
+ * short(16) can only go up to 16    
+ char (16) can go up to 16 but only on character can be entered 
+ int (32) can go up to 32
+ long(64) can go up to 64 
+ float(32)can go up to 32 but always put F behind it when assigning 
+ double (64) can go up to 64
+ byte->short->char->int->long-float->double
+ why we need type casting?
+ when we are working in teams we might need to covert data from different date types . when we are workjing with math sometimes we need to 
+ get rid of decimal part as we are only interested in the non-decimal part.
+ what is sy

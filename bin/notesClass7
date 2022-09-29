@@ -1,0 +1,57 @@
+switch
+
+Limitations:
+    data type
+
+
+ Loops- statement that repetes itself  
+ 
+ System.out.print("good morning")
+ System.out.print("good morning")
+ System.out.print("good morning")
+ System.out.print("good morning")
+ System.out.print("good morning")
+ 
+ 
+ 
+ int time=11;
+ 
+ if (time<12) {
+ System.out.print("good morning");
+ }
+ 
+ while (time<12){
+ System.out.println("good morning");
+ }
+ 
+ while loop syntax
+ 
+ while(boolean condition)
+ while vs do while--> both loops executed while condition is true
+ 
+ while loop first CHECK condition-->if true->executes code do while frist EXECUTES code-->then checks condition
+ 
+ for loop syntax
+ 
+ for (initialization; condition; increment/decrement){
+    
+    code to repeated;
+ }
+  // Hello 5 times//
+  for(int i=1; i<=5; i++){
+   system.out.println("Hello");
+   }
+   
+   when to use which loop:
+   when we know on advance hoe many times to repeat block of code-> USE FOR LOOP
+   
+   when we do not know in advance how many times to repeat block of code-->USE While or Do While
+   
+   
+  
+  
+ 
+  
+  
+ 
+ 

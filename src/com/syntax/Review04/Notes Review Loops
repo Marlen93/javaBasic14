@@ -1,0 +1,14 @@
+Loops:
+
+loops in java help us excute a pa\iese of code again and again
+why we should learn about loop?
+bc loops help us write cleaner & scalable code. for example
+if you hav to test Password field on a webpage you can creat diffrent variation of data in an excel sheet
+ then you pick all the va;ues one by one and test the field.
+ Syntax for LOOPS:
+ for loop:---
+ for (sarting point; ending point;step size -- or ++){
+ code the we want repeat
+ }
+ 
+ 
